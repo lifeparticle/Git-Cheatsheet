@@ -13,5 +13,6 @@ git checkout -B master origin/master
 With git reflog check which commit is one prior the merge 
 
 ```
+git reflog
 git reset --hard commit_sha
 ```

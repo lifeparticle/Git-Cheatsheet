@@ -47,3 +47,9 @@ git checkout test_dev_branch # gets you on test_dev_branch
 git fetch origin             # gets you up to date with origin
 git merge origin/master
 ```
+
+5. Switch to another branch
+
+```
+git checkout [branch]
+```

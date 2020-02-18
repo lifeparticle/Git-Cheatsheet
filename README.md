@@ -25,19 +25,19 @@ Switch to another branch and delete test_dev_branch
 
 ```
 git checkout master
-git branch -d test_dev_branch
+git branch -d <branch>
 ```
 
 If the branch test_dev_branch is not fully merged you will get an error but you can force delete it using -D instead of -d
 
 ```
-git branch -D test_dev_branch
+git branch -D <branch>
 ```
 
 Delete test_dev_branch from remote
 
 ```
-git push origin --delete test_dev_branch
+git push origin --delete <branch>
 ```
 
 4. Pull from master into the development branch
@@ -51,5 +51,11 @@ git merge origin/master
 5. Switch to another branch
 
 ```
-git checkout [branch]
+git checkout <branch>
+```
+
+6. Create a new branch
+
+```
+git branch <branch>
 ```

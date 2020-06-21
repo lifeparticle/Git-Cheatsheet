@@ -59,3 +59,31 @@ git checkout <branch>
 ```
 git branch <branch>
 ```
+
+7. Git squash
+
+Last three commits
+
+```
+git rebase -i HEAD~3
+```
+
+change the file
+
+```
+pick 12345 Commit 1
+squash 54321 Commit 2
+squash 98765 Commit 3
+```
+
+save and quit
+
+```
+fix the commit message
+```
+
+push
+
+```
+git push origin DEV-244 -f
+```

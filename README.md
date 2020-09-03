@@ -87,3 +87,7 @@ push
 ```
 git push origin DEV-244 -f
 ```
+
+8. Empty directorie
+
+https://git.wiki.kernel.org/index.php/GitFaq#Can_I_add_empty_directories.3F

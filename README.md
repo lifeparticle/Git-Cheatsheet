@@ -1,4 +1,27 @@
-# Git-Helper
+```
+cd Desktop
+git init neptune
+cd neptune
+touch README.md
+echo TODO > README.md
+git add README.md
+git commit -m "README"
+git push
+```
+
+```
+cd Desktop
+mkdir neptune
+cd neptune
+git init
+touch README.md
+echo TODO > README.md
+git add README.md
+git commit -m "README"
+git push
+
+```
+
 
 1. How do I reset master to origin/master?
 

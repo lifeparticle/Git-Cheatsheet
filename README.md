@@ -1,28 +1,3 @@
-```
-cd Desktop
-git init neptune
-cd neptune
-touch README.md
-echo TODO > README.md
-git add README.md
-git commit -m "README"
-git push
-```
-
-```
-cd Desktop
-mkdir neptune
-cd neptune
-git init
-touch README.md
-echo TODO > README.md
-git add README.md
-git commit -m "README"
-git push
-
-```
-
-
 1. How do I reset master to origin/master?
 
 If -B is given, <new_branch> is created if it doesn’t exist; otherwise, it is reset
@@ -114,3 +89,12 @@ git push origin DEV-244 -f
 8. Empty directorie
 
 https://git.wiki.kernel.org/index.php/GitFaq#Can_I_add_empty_directories.3F
+
+9. Remove .gitignore files from github
+
+```
+git rm -rf --cached .
+git commit -m "rm files"
+git push
+```
+

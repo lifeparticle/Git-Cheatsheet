@@ -1,3 +1,15 @@
+1. Create and switch to a new branch
+
+```shell
+git switch -c path_config
+# Switched to a new branch 'path_config'
+```
+
+
+
+#### Need to clean up .....
+
+
 1. How do I reset master to origin/master?
 
 If -B is given, <new_branch> is created if it doesn’t exist; otherwise, it is reset

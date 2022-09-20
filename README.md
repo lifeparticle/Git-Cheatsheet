@@ -110,3 +110,9 @@ git commit -m "rm files"
 git push
 ```
 
+
+10. 
+
+```shell
+git rm -r --cached .
+```

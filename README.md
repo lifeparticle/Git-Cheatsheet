@@ -1,3 +1,16 @@
+# Introduction
+
+# Git-Hooks
+
+Git can fire off custom scripts when certain important actions occur.
+
+1. pre-commit
+2. prepare-commit-msg
+3. commit-msg
+4. post-commit
+
+# Commands
+
 1. Create and switch to a new branch
 
 ```shell

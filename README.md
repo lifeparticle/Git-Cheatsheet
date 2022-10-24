@@ -9,6 +9,12 @@ Git can fire off custom scripts when certain important actions occur.
 3. commit-msg
 4. post-commit
 
+We can bypass pre-commit and commit-msg hooks using the following command:
+
+```shell
+git commit -m "tidy" --no-verify
+```
+
 # Commands
 
 1. Create and switch to a new branch

@@ -24,7 +24,13 @@ git switch -c path_config
 # Switched to a new branch 'path_config'
 ```
 
+2. List all local branches
 
+```shell
+git branch --all
+```
+
+------------
 
 #### Need to clean up .....
 

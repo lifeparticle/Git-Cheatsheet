@@ -30,6 +30,13 @@ git switch -c path_config
 git branch --all
 ```
 
+
+3. List all the remote brances
+
+```shell
+git branch -r
+```
+
 ------------
 
 #### Need to clean up .....

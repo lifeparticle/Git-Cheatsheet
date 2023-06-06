@@ -37,6 +37,26 @@ git branch --all
 git branch -r
 ```
 
+4. Reset all changes after last commit
+
+Undo chnages to tracked file:
+
+```shell
+git reset HEAD --hard
+```
+
+Remove untracked files:
+
+```shell
+git clean -f
+```
+
+Remove untracked files and directories:
+
+```shell
+git clean -fd
+```
+
 ------------
 
 #### Need to clean up .....

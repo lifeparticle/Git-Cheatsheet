@@ -57,6 +57,17 @@ Remove untracked files and directories:
 git clean -fd
 ```
 
+Remove GIT History (Caution it delete all the commit history)
+
+```shell
+git checkout --orphan last
+git add -A
+git commit -am "fresh init"
+git branch -D main
+git branch -m main
+git push -f origin main
+```
+
 ------------
 
 #### Need to clean up .....

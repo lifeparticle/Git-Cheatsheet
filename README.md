@@ -80,7 +80,7 @@ git clone --mirror git@github.com:lifeparticle/binarytree.git
 
 ```shell
 git clone --mirror git@github.com:lifeparticle/binarytree.git
-bfg --strip-blobs-bigger-than 100M binarytree.git
+bfg --strip-blobs-bigger-than 1M binarytree.git
 cd binarytree.git
 git reflog expire --expire=now --all && git gc --prune=now --aggressive
 ```

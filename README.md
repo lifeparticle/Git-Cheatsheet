@@ -68,6 +68,15 @@ git branch -m main
 git push -f origin main
 ```
 
+5. Bare repository
+
+```shell
+git clone --mirror git@github.com:lifeparticle/binarytree.git
+```
+
+[source](https://git-scm.com/docs/gitglossary.html#def_bare_repository)
+
+
 ------------
 
 #### Need to clean up .....

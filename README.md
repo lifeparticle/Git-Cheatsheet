@@ -76,6 +76,14 @@ git clone --mirror git@github.com:lifeparticle/binarytree.git
 
 [source](https://git-scm.com/docs/gitglossary.html#def_bare_repository)
 
+6. Reduce Git repository size
+
+```shell
+git clone --mirror git@github.com:lifeparticle/binarytree.git
+bfg --strip-blobs-bigger-than 100M some-big-repo.git
+cd binarytree.git
+git reflog expire --expire=now --all && git gc --prune=now --aggressive
+```
 
 ------------
 

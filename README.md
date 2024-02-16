@@ -196,3 +196,7 @@ git push
 ```shell
 git rm -r --cached .
 ```
+
+# Resources
+
+- https://www.youtube.com/watch?v=aolI_Rz0ZqY&ab_channel=GitButler

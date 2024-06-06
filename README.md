@@ -200,3 +200,4 @@ git rm -r --cached .
 # Resources
 
 - https://www.youtube.com/watch?v=aolI_Rz0ZqY&ab_channel=GitButler
+- https://stackoverflow.com/questions/89332/how-do-i-recover-a-dropped-stash-in-git

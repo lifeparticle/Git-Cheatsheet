@@ -74,6 +74,20 @@ git push -f origin main
 git clone --mirror git@github.com:lifeparticle/binarytree.git
 ```
 
+6. Oneline
+
+```shell
+git log --oneline
+```
+
+7. Git bisect
+
+```shell
+git bisect start
+git bisect bad
+git bisect good
+```
+
 [source](https://git-scm.com/docs/gitglossary.html#def_bare_repository)
 
 6. Reduce Git repository size

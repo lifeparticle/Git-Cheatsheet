@@ -65,3 +65,30 @@ git clone --mirror git@github.com:lifeparticle/binarytree.git
 bfg --strip-blobs-bigger-than 1M binarytree.git
 cd binarytree.git
 ```
+
+11. Revert
+
+
+```shell
+A---B---C---D---E (develop)
+         \ 
+          F---G (feature branch)
+               \
+                H (merge commit: 9343dSwd)
+```
+
+H has two parents:
+
+Parent 1: commit E (mainline — usually develop)
+
+Parent 2: commit G (feature branch)
+
+```shell
+git revert -m 1 H
+```
+
+Git will:
+
+- Keep the content as it was in E
+- Undo the changes from the feature branch (G)
+- Create a new commit that undoes the merge.

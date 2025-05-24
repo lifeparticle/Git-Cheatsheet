@@ -328,3 +328,7 @@ Git will:
 ## 22. Recover deleted files
 
 todo
+
+
+## Resource
+1. [Essential-git-commands-every-programmer-should-know](https://medium.com/data-science/essential-git-commands-every-programmer-should-know-fe96feb570ce)

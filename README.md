@@ -329,6 +329,11 @@ Git will:
 
 todo
 
+## 23. How do I recover a dropped stash in Git
+
+todo
 
 ## Resource
 1. [Essential-git-commands-every-programmer-should-know](https://medium.com/data-science/essential-git-commands-every-programmer-should-know-fe96feb570ce)
+2. [So You Think You Know Git - FOSDEM 2024](https://www.youtube.com/watch?v=9uGS1ak_FGg)
+3. [How do I recover a dropped stash in Git?](https://stackoverflow.com/questions/89332/how-do-i-recover-a-dropped-stash-in-git)

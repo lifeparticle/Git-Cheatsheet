@@ -17,33 +17,9 @@ git commit -m "tidy" --no-verify
 
 # Commands
 
-1. Create and switch to a new branch
-
-```shell
-git switch -c path_config
-# Switched to a new branch 'path_config'
-```
-
-2. List all local branches
-
-```shell
-git branch --all
-```
 
 
-3. List all the remote brances
 
-```shell
-git branch -r
-```
-
-4. Reset all changes after last commit
-
-Undo chnages to tracked file:
-
-```shell
-git reset HEAD --hard
-```
 
 Remove untracked files:
 
@@ -57,46 +33,11 @@ Remove untracked files and directories:
 git clean -fd
 ```
 
-Remove GIT History (Caution it delete all the commit history)
 
-```shell
-git checkout --orphan last
-git add -A
-git commit -am "fresh init"
-git branch -D main
-git branch -m main
-git push -f origin main
-```
 
-5. Bare repository
 
-```shell
-git clone --mirror git@github.com:lifeparticle/binarytree.git
-```
 
-6. Oneline
 
-```shell
-git log --oneline
-```
-
-7. Git bisect
-
-```shell
-git bisect start
-git bisect bad
-git bisect good
-```
-
-[source](https://git-scm.com/docs/gitglossary.html#def_bare_repository)
-
-6. Reduce Git repository size
-
-```shell
-git clone --mirror git@github.com:lifeparticle/binarytree.git
-bfg --strip-blobs-bigger-than 1M binarytree.git
-cd binarytree.git
-git reflog expire --expire=now --all && git gc --prune=now --aggressive
 ```
 
 ------------
@@ -211,7 +152,3 @@ git push
 git rm -r --cached .
 ```
 
-# Resources
-
-- https://www.youtube.com/watch?v=aolI_Rz0ZqY&ab_channel=GitButler
-- https://stackoverflow.com/questions/89332/how-do-i-recover-a-dropped-stash-in-git

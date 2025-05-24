@@ -231,7 +231,7 @@ If you need to update the last commit then simply make your edits, stage them wi
 | `git commit --amend --no-edit` | Amend last commit without changing message |
 
 > [!IMPORTANT]
-> `Always double-check with `git log` after amending to confirm the result.
+> Always double-check with `git log` after amending to confirm the result.
 
 ## 11. Revert the main branch to a previous commit
 
@@ -281,7 +281,6 @@ git push -f origin main
 git clone --mirror git@github.com:lifeparticle/binarytree.git
 ```
 
-
 ## 18. Git bisect
 
 ```shell
@@ -327,7 +326,24 @@ Git will:
 
 ## 22. Recover deleted files
 
-todo
+### When a File is Removed from the Working Directory
+
+If you accidentally delete a **tracked** file from your working directory using:
+
+```bash
+rm main.py
+```
+
+You can recover it using:
+
+```bash
+git restore main.py
+```
+
+This restores the file from the last commit (i.e., `HEAD`) as it existed before deletion.
+
+> [!IMPORTANT]
+> This only works if the file was previously committed and is tracked by Git.
 
 ## 23. How do I recover a dropped stash in Git
 
